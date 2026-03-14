@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Trend Spotter | Admin Control</title>
+</head>
+<body class="bg-[#0D3B3F] text-white p-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-[#D98C5F] text-3xl font-black mb-8 italic uppercase">Private Admin Panel</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            <div class="bg-white/5 p-6 rounded-3xl border border-white/10">
+                <p class="text-white/50 text-xs font-bold uppercase mb-2">Total Product Clicks</p>
+                <p class="text-4xl font-black">0</p>
+            </div>
+            <div class="bg-white/5 p-6 rounded-3xl border border-white/10">
+                <p class="text-white/50 text-xs font-bold uppercase mb-2">AI Videos Generated</p>
+                <p class="text-4xl font-black text-blue-400">0</p>
+            </div>
+        </div>
+
+        <div class="bg-white/5 p-8 rounded-[40px] border border-white/10">
+            <h2 class="text-xl font-bold mb-6 text-[#D98C5F]">➕ Add New Viral Product</h2>
+            <div class="space-y-4">
+                <input type="text" placeholder="Product Name" class="w-full bg-black/20 p-4 rounded-xl border border-white/10 outline-none">
+                <input type="text" placeholder="Affiliate Link (Amazon/AliExpress)" class="w-full bg-black/20 p-4 rounded-xl border border-white/10 outline-none">
+                <button class="w-full bg-[#D98C5F] text-white py-4 rounded-xl font-black uppercase tracking-widest hover:scale-105 transition">Update Live Site</button>
+            </div>
+        </div>
+        
+        <div class="mt-8 bg-[#D98C5F]/10 p-6 rounded-3xl border border-[#D98C5F]/20 text-center">
+            <p class="text-[#D98C5F] font-bold">🤖 AI Studio: Coming Soon (Needs GPU Backend)</p>
+        </div>
+    </div>
+</body>
+</html>
+
